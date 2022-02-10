@@ -252,6 +252,16 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NordicTransport.Data\NordicTransportMaster.Data.csproj">
+      <Project>{675fe98a-cee1-4fc2-934f-02879b06ed2e}</Project>
+      <Name>NordicTransportMaster.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NordicTransport.Services\NordicTransportMaster.Services.csproj">
+      <Project>{b71febbc-3d46-4c77-9d63-d824d2bd2bc4}</Project>
+      <Name>NordicTransportMaster.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

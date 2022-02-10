@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordicTransportMaster", "NordicTransportMaster\NordicTransportMaster.csproj", "{06A88E20-F3D3-4DAB-9743-E420B470C203}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordicTransportMaster.Data", "NordicTransport.Data\NordicTransportMaster.Data.csproj", "{675FE98A-CEE1-4FC2-934F-02879B06ED2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NordicTransportMaster.Services", "NordicTransport.Services\NordicTransportMaster.Services.csproj", "{B71FEBBC-3D46-4C77-9D63-D824D2BD2BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{06A88E20-F3D3-4DAB-9743-E420B470C203}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06A88E20-F3D3-4DAB-9743-E420B470C203}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06A88E20-F3D3-4DAB-9743-E420B470C203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675FE98A-CEE1-4FC2-934F-02879B06ED2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675FE98A-CEE1-4FC2-934F-02879B06ED2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675FE98A-CEE1-4FC2-934F-02879B06ED2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675FE98A-CEE1-4FC2-934F-02879B06ED2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71FEBBC-3D46-4C77-9D63-D824D2BD2BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71FEBBC-3D46-4C77-9D63-D824D2BD2BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71FEBBC-3D46-4C77-9D63-D824D2BD2BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71FEBBC-3D46-4C77-9D63-D824D2BD2BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
